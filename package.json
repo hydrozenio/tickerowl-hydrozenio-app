@@ -1,0 +1,37 @@
+{
+  "name": "tickerowl-hydrozenio-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-run": "tsc && node_modules/tickerowl-app-base/dist/run.js dist/index.js"
+  },
+  "keywords": [
+    "tickerowl",
+    "hydrozen",
+    "hydrozen.io",
+    "uptime",
+    "monitoring",
+    "ticker",
+    "uptime ticker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hydrozenio/tickerowl-hydrozenio-app.git"
+  },
+  "author": "Raghu Chinnannan",
+  "homepage": "https://raghu.ch",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "tickerowl-app-base": "^1.0.7"
+  },
+  "files": [
+    "dist"
+  ]
+}
