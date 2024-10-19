@@ -1,7 +1,7 @@
 {
   "name": "tickerowl-hydrozenio-app",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Hydrozen.io App for Tickerowl",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hydrozenio/tickerowl-hydrozenio-app.git"
+    "url": "git+https://github.com/hydrozenio/tickerowl-hydrozenio-app.git"
   },
   "author": "Raghu Chinnannan",
   "homepage": "https://raghu.ch",

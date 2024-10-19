@@ -74,25 +74,9 @@ export default class HydrozenioApp implements App {
             return {
               slides: [
                 {
-                  type: "KEY_VALUE",
-                  key: "Target",
-                  value: formattedTarget,
-                },
-                {
-                  type: "KEY_VALUE",
-                  key: "Status",
-                  value: monitorStatus,
-                },
-                {
-                  type: "KEY_VALUE",
-                  key: "Uptime",
-                  value: `${data.uptime.toFixed(3)}%`,
-                },
-                {
-                  type: "KEY_VALUE",
-                  key: "Avg Response Time",
-                  value: `${data.average_response_time.toFixed(2)} ms`,
-                },
+                  type: "TEXT",
+                  text: formattedTarget + " is " + monitorStatus + "! Uptime: " + `${data.uptime.toFixed(3)}%` + " Avg. Response Time: " + `${data.average_response_time.toFixed(2)} ms`,
+                }
               ],
             };
           } catch (error) {

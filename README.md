@@ -1,6 +1,6 @@
 # Tickerowl Hydrozen.io App
 
-[Hydrozen.io](https://hydrozen.io) app for Tickerowl to show the Uptime status of the monitors on the Tickerowl Devices.
+Hydrozen.io app for Tickerowl to show the Uptime status of the monitors on the Tickerowl Devices.
 
 This app is written based on the [Sample Dota App](https://github.com/pskd73/tickerowl-dota-app) written by [Pramod](https://github.com/pskd73/).
 
