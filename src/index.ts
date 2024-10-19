@@ -4,8 +4,8 @@ export default class HydrozenioApp implements App {
   getInfo(): AppInfo {
     return {
       id: "hydrozenio-app",
-      name: "Hydrozen.io App",
-      description: "Show uptime status of your Hydrozen.io monitors",
+      name: "Hydrozen.io",
+      description: "Show uptime status of Hydrozen.io monitors",
       version: 1,
       author: "Raghu Chinnannan",
       authorXUrl: "https://twitter.com/@raghuchinnannan",
@@ -16,7 +16,7 @@ export default class HydrozenioApp implements App {
   getSlides(): Record<string, AppSlide> {
     return {
       "uptime-monitor-status": {
-        title: "Uptime Monitor Status",
+        title: "Hydrozen.io Uptime Monitor Status",
         description: "Shows uptime status of a monitor",
         inputs: {
           "apiKey": {
